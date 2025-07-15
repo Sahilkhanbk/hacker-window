@@ -8,15 +8,12 @@ const randomDelay = () => {
         }, timeout * 1000)
     })
 }
-
 const additem = async (item) => {
     await randomDelay();
     let div = document.createElement("div");
     div.innerHTML = item;
     document.body.append(div)
 }
-
-
 async function main() {
 
     let t = setInterval(() => {
