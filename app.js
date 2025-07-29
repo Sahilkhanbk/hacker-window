@@ -1,5 +1,4 @@
 
-
 const randomDelay = () => {
     return new Promise((resolve, reject) => {
         timeout = 1 + 6 * Math.random();
